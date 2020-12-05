@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
- <div>good job</div> 
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="box">good job</div>
+    <script type="javascript">
+
+      var oDiv = document.getElementId("box");
+      oDiv.onlick=function(){
+        console.log(this);
+      }
+    </script>
+  </body>
 </html>
